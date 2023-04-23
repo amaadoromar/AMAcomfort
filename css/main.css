@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 5%;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 5%;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15;
+}
+
+nav ul li:hover {
+    background-color: white;
+    transition-duration: 500ms;
+    margin-right: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.dropbtn {
+    background-color: #8B8839;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+.up {
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+
+#visitez a{
+text-decoration: none;
+color:black;
+}
+
+#contactez a{
+text-decoration: none;
+color:black;
+}
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 2px 2px #8B8839;
+}
+
+.pqnous p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    text-shadow: 1px 1px black;
+}
+
+.pqnous {
+    color: #000;
+    font-size: 12px;
+    padding: 15px 0 15px 20px;
+    background: rgba(136, 136, 136, 0.68);
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 2px;
+}
+
+#visitez {
+    width: 150px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+#contactez {
+    width: 150px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 5px 5px #8B8839;
+}
+
+.produits {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.produit1 {
+    background-image: url(../images/produit1.jpg);
+}
+
+.produit2 {
+    background-image: url(../images/produit2.jpg);
+}
+
+.produit3 {
+    background-image: url(../images/produit3.jpg);
+}
+
+.produit4 {
+    background-image: url(../images/produit4.jpg);
+}
+
+.produits:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+
+.produits p {
+    text-shadow: 0 0 5px #999;
+    font-size: 8px;
+}
